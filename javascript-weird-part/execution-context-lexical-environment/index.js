@@ -6,12 +6,22 @@
 
 // console.log(test());
 
-b()
-console.log(a);
+// Hoisting using let or const
+// b()
+// console.log(a);
 
-let a = "Hi there!";
+// let a = "Hi there!";
 
-function b() {
+// function b() {
+//     console.log("B is called!")
+// }
+
+//Hoisting using var
+d()
+console.log(x);
+
+var x = "Hi there!";
+
+function d() {
     console.log("B is called!")
 }
-
